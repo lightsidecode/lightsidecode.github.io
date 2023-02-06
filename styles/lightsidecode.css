@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.4em;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eef0f1;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+}
+
+header .logo h1 {
+    display: inline-block;
+    color: #98c1d9;
+    position: relative;
+    bottom: 9px;
+    font-size: 30px;
+}
+
+header .logo img {
+    position: relative;
+    top: 6px;
+    left: -5px;
+    height: 60px;
+}
+
+.container h2 {
+    margin: 0px 0px 20px 0;
+}
+
+main {
+    background-color: #eef0f1;
+}
+
+main .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer .container {
+    border-top: 1px solid #3d5a80;
+    padding: 20px 0;
+}
+
+p::selection, h1::selection, h2::selection, span::selection {
+    background-color: #e0fbfc;
+}
+
+.dark-blue {
+    color: #3d5a80;
+}
+
+.light-blue {
+    color: #98c1d9;
+}
+
+.light-red {
+    color: #a00;
+}
+
+nav {
+    /*box-shadow: 0 5px 5px -5px #333;*/
+    background-color: #3d5a80;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+
+.menu li a {
+    color: #98c1d9;
+}
+
+.menu li a:hover {
+    color: #e0fbfc;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 5px;
+}
+
+/* card */
+.card, .card-title, .card-details {
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #3d5a80;
+    padding: 40px;
+    margin: 40px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.card, .card-title {
+    cursor: pointer;
+}
+
+.card-title {
+    background-image: linear-gradient(to right, #98c1d9, #fff);
+    border: 1px solid #3d5a80;
+}
+
+.card-details {
+    border: 1px solid #3d5a80;
+    background-color: #98c1d9;
+    background-image: linear-gradient(to right, #98c1d9, #fff);
+}
+
+.card h2, .card-title h2 {
+    margin: 0;
+}
+
+.card p, .card-title p, .card-details p {
+    margin-top: 20px;
+}
+
+.card:hover {
+    background-image: linear-gradient(to right, #98c1d9, #fff);
+    border: 1px solid #3d5a80;
+}

@@ -1,9 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Haskell w pytaniach i odpowiedziach">
+    <meta name="author" content="lightsidecode.pl | Tomasz Gądek">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet"> 
+    <link href="./styles/lightsidecode.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./logo/logo.png" />
+
+    <script type="text/javascript" src="./script/dates-copyright.js"></script>
+    <script type="text/javascript" src="./script/lightsidecode.js"></script>
+
+    <title>lightsidecode</title>
+
+    <script>
+    function displayAll(item) {
+        let tasks = document.getElementById("questions");
+
+        tasks.innerHTML +=
+            `
+            <div class="card" onclick="window.location.href='question.html?id=${item.id}'">
+                <h2>${item.title}</h2>
+                <p>Data ostatniej aktualizacji: <strong>${item.lastUpdate}</strong></p>
+            </div>
+            `;
+    }
+        
+    function loadData() {
+
+        fetch('./database/questions.json')
+            .then((response) => response.json())
+            .then((json) => {
+                console.log('json = ', json);
+                json.questions.forEach(displayAll);
+            });
+    }
+
+    loadData();
+    </script>
+</head>
+
 <body>
-
-<h1>Hello</h1>
-<p>Hello</p>
-
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="/">
+                <img src="./logo/small_logo.png" alt="lightsidecode.pl logo">
+                <h1>light<span class="dark-blue">side</span>code<span class="light-red">.pl</span></h1>
+            </a>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul class="menu">
+                <li><a href="https://github.com/lightsidecode">GitHub</a></li>
+                <li><a href="mailto:lightsidecode@gmail.com">Email</a></li>
+                <li><a href="about.html">O serwisie</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container" id="questions">
+            <div class="card-title">
+                <h2>Haskell w pytaniach i odpowiedziach</h2>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            &copy; <span id="year"></span> | lightsidecode.pl | Tomasz Gądek
+        </div>
+    </footer>
 </body>
-</html> 
+
+</html>

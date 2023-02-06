@@ -1,2 +1,3 @@
 # lightsidecode.github.io
-lightsidecode blog
+
+lightsidecode.pl

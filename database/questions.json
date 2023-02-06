@@ -1,0 +1,30 @@
+{
+    "questions": [{
+        "id": 0,
+        "title": "Jak uruchomić pierwszy program w języku Haskell?",
+        "description": null,
+        "lastUpdate": "03-02-2023",
+        "input": "./haskell_tasks/basic_first_app.hs",
+        "output": "Hello Haskell!",
+        "sortOrder": 0,
+        "tags": ["Podstawy"]
+    }, {
+        "id": 1,
+        "title": "Jak utworzyć komentarz w języku Haskell?",
+        "description": null,
+        "lastUpdate": "04-02-2023",
+        "input": "./haskell_tasks/basic_create_comment.hs",
+        "output": "Hello Haskell!",
+        "sortOrder": 0,
+        "tags": ["Podstawy"]
+    }, {
+        "id": 2,
+        "title": "Jak utworzyć zmienną w języku Haskell?",
+        "description": null,
+        "lastUpdate": "06-02-2023",
+        "input": "./haskell_tasks/basic_create_variable.hs",
+        "output": "Hello Tomasz!",
+        "sortOrder": 0,
+        "tags": ["Podstawy"] 
+    }]
+}
