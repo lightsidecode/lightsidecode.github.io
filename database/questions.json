@@ -23,7 +23,16 @@
         "description": null,
         "lastUpdate": "06-02-2023",
         "input": "./haskell_tasks/basic_create_variable.hs",
-        "output": "Hello Tomasz!",
+        "output": "Hello Joe!",
+        "sortOrder": 0,
+        "tags": ["Podstawy"] 
+    }, {
+        "id": 3,
+        "title": "Jakie mamy podstawowe typy danych w języku Haskell?",
+        "description": null,
+        "lastUpdate": "07-02-2023",
+        "input": "./haskell_tasks/basic_types.hs",
+        "output": "17\n2500.0\nTrue\n'x'\n\"Hello!\"",
         "sortOrder": 0,
         "tags": ["Podstawy"] 
     }]

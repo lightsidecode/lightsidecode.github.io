@@ -99,7 +99,7 @@ nav {
 .container {
     max-width: 800px;
     margin: 0px auto;
-    padding: 5px;
+    padding: 10px;
 }
 
 /* card */
@@ -107,8 +107,8 @@ nav {
     background-color: #fff;
     border-radius: 6px;
     border: 1px solid #3d5a80;
-    padding: 40px;
-    margin: 40px 0;
+    padding: 20px;
+    margin: 20px 0;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
