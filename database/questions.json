@@ -35,5 +35,14 @@
         "output": "17\n2500.0\nTrue\n'x'\n\"Hello!\"",
         "sortOrder": 0,
         "tags": ["Podstawy"] 
+    }, {
+        "id": 4,
+        "title": "Jak połączyć ciągi tekstowe w języku Haskell?",
+        "description": null,
+        "lastUpdate": "10-02-2023",
+        "input": "./haskell_tasks/basic_concatenation.hs",
+        "output": "Haskell",
+        "sortOrder": 0,
+        "tags": ["Podstawy"] 
     }]
 }
