@@ -44,5 +44,23 @@
         "output": "Haskell",
         "sortOrder": 0,
         "tags": ["Podstawy"] 
+    }, {
+        "id": 5,
+        "title": "Jak pobrać konkretny znak z ciągu tekstowego w języku Haskell?",
+        "description": null,
+        "lastUpdate": "12-02-2023",
+        "input": "./haskell_tasks/string_get_character.hs",
+        "output": "'H'\n'e'",
+        "sortOrder": 0,
+        "tags": ["String"] 
+    }, {
+        "id": 6,
+        "title": "Jak działają operatory matematyczne w języku Haskell?",
+        "description": null,
+        "lastUpdate": "12-02-2023",
+        "input": "./haskell_tasks/basic_arithmetic_operators.hs",
+        "output": "5.0\n-1.0\n6.0\n0.6666666666666666\n8.0\n6\n8",
+        "sortOrder": 0,
+        "tags": ["Podstawy"] 
     }]
 }
