@@ -4,14 +4,14 @@ main = do
     let a = 2
     let b = 3
 
-    let add = a + b
-    let sub = a - b
-    let mul = a * b
-    let div = a / b
-    let exp = a ** b
+    let add = a + b  -- dodawanie
+    let sub = a - b  -- odejmowanie
+    let mul = a * b  -- mnozenie
+    let div = a / b  -- dzielenie
+    let exp = a ** b -- potegowanie
 
-    let operation1 = 2 + 2 * 2
-    let operation2 = (2 + 2) * 2
+    let operation1 = 2 + 2 * 2   -- kolejnosc dzialan
+    let operation2 = (2 + 2) * 2 -- priorytet nawiasow
 
     print add
     print sub

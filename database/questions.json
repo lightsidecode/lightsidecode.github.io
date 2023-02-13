@@ -62,5 +62,14 @@
         "output": "5.0\n-1.0\n6.0\n0.6666666666666666\n8.0\n6\n8",
         "sortOrder": 0,
         "tags": ["Podstawy"] 
+    }, {
+        "id": 7,
+        "title": "Jak działają operatory porównania w języku Haskell?",
+        "description": null,
+        "lastUpdate": "13-02-2023",
+        "input": "./haskell_tasks/basic_comparison_operators.hs",
+        "output": "False\nFalse\nTrue\nTrue\nFalse\nTrue",
+        "sortOrder": 0,
+        "tags": ["Podstawy"] 
     }]
 }
